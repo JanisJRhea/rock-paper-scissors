@@ -1,0 +1,47 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('/public/image/back.png'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.game-container {
+  background-color:rgb(205, 211, 202);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto; 
+  max-width: 20%; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.title {
+  color: #0a722c;
+}
+
+.move {
+  color: #555;
+}
+
+.result {
+  font-weight: bold;
+}
+
+.user-win {
+  color: green;
+}
+
+.computer-win {
+  color: red;
+}
+
+.draw {
+  color: rgb(201, 111, 63);
+}
